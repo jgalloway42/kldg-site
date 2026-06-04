@@ -41,6 +41,7 @@
                     <div class="ml-10 flex items-baseline space-x-8">
                         <a href="#home" class="hover:text-blue-400 transition-colors">Home</a>
                         <a href="#services" class="hover:text-blue-400 transition-colors">Services</a>
+                        <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
                         <a href="#approach" class="hover:text-blue-400 transition-colors">Approach</a>
                         <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
                         <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
@@ -202,6 +203,103 @@
         </div>
     </section>
 
+    <!-- Featured Projects Section -->
+    <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold mb-4">Featured Projects</h3>
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                    Production-grade AI systems built and deployed for industrial and enterprise applications
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <!-- Project 1: Boiler-Ops Sentinel -->
+                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-8 hover:border-blue-500 transition-colors flex flex-col">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mr-3 flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-blue-400">Boiler-Ops Sentinel</h4>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Production-grade Industrial AI agent for real-time boiler fault detection and automated remediation. Combines a deep learning anomaly detector with an agentic diagnostic workflow, providing explainable, actionable alerts for operations teams.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">PyTorch LSTM Autoencoder</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">LangGraph</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">MLflow</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">GitHub Actions CI/CD</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">Railway</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-gray-400 mt-auto">
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            Multivariate anomaly detection via LSTM Autoencoder trained on industrial sensor data
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            LangGraph agentic workflow for automated fault diagnosis and structured remediation recommendations
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            Gradient-based feature attribution for model explainability
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            MLflow experiment tracking; CI/CD via GitHub Actions; cloud deployment on Railway
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Project 2: doc-qa-agent -->
+                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-8 hover:border-blue-500 transition-colors flex flex-col">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mr-3 flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-3 3-3-3z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-blue-400">doc-qa-agent</h4>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Agentic document Q&A system enabling natural-language queries across multi-format document corpora. Built for enterprise use cases where teams need rapid, traceable answers from large collections of technical and operational documents.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">LangGraph ReAct</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">ChromaDB</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">RAG</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">Anthropic / OpenAI / Ollama</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">MLflow</span>
+                        <span class="px-3 py-1 bg-blue-900/40 border border-blue-700/60 rounded-full text-xs text-blue-300">GitHub Actions CI/CD</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-gray-400 mt-auto">
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            LangGraph ReAct agent with multi-format ingestion pipeline (PDF, DOCX, MD, CSV, JSON)
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            ChromaDB vector store with multi-provider LLM support (Anthropic, OpenAI, Ollama)
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            MLflow observability for query tracing and answer quality monitoring
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                            GitHub Actions CI/CD with enforced quality gates
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Approach Section -->
     <section id="approach" class="py-20 px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
@@ -329,16 +427,16 @@
                     <h5 class="text-lg font-semibold mb-4">Selected Certifications & Training</h5>
                     <div class="grid md:grid-cols-2 gap-4 text-sm">
                         <div>
-                            <p class="text-gray-300">• ISA Certified Automation Professional</p>
-                            <p class="text-gray-300">• Certified Scrum Master (Scrum Alliance)</p>
-                            <p class="text-gray-300">• Agentic AI with LangChain/LangGraph (IBM)</p>
+                            <p class="text-gray-300">• MLOps Specialization — Duke University (Coursera)</p>
+                            <p class="text-gray-300">• Building AI Agents & Agentic Workflows — IBM (Coursera)</p>
                             <p class="text-gray-300">• AI Agents in LangGraph (DeepLearning.AI)</p>
+                            <p class="text-gray-300">• Machine Learning in Production (DeepLearning.AI)</p>
                         </div>
                         <div>
-                            <p class="text-gray-300">• Machine Learning in Production (DeepLearning.AI)</p>
                             <p class="text-gray-300">• GANs Specialization (DeepLearning.AI)</p>
                             <p class="text-gray-300">• Structuring ML Projects (DeepLearning.AI)</p>
-                            <p class="text-gray-300">• Databases and SQL for Data Science (IBM)</p>
+                            <p class="text-gray-300">• ISA Certified Automation Professional</p>
+                            <p class="text-gray-300">• Certified Scrum Master (Scrum Alliance)</p>
                         </div>
                     </div>
                 </div>
